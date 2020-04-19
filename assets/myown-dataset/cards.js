@@ -1,4 +1,6 @@
-const MY_DATASET_DIR = '/assets/myown-dataset/';
+import { CONF_ROOT_PATH } from '../../config';
+
+const MY_DATASET_DIR = `${CONF_ROOT_PATH || ''}/assets/myown-dataset/`;
 const myCategories = ['computers', 'food'];
 
 const cardsEn = {
